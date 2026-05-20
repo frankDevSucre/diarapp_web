@@ -58158,7 +58158,7 @@ a0=A.ja(B.aK,a8.id,!0,b1,B.a30,a9,a9,"Direcci\xf3n del Negocio",1,o)
 a1=A.ja(B.aK,a8.k1,!0,"Ej. 2 a\xf1os",B.fa,a9,a9,"Antig\xfcedad del Negocio",1,o)
 a2=A.ja(B.aK,a8.fr,!0,"Ej. 2000000",B.md,a9,B.fm,"Ingresos (opcional)",1,a9)
 a3=A.ja(B.aK,a8.fx,!0,"Ej. 800000",B.mc,a9,B.fm,"Egresos (opcional)",1,a9)
-o=A.ja(B.aK,a8.k2,!0,"Ej. 750",B.a38,A.b([q],p),B.ev,"Score Crediticio",1,o)
+o=A.ja(B.aK,a8.k2,!0,"Ej. 10",B.a38,A.b([q],p),B.ev,"Score Crediticio",1,o)
 p=t.fD
 q=A.Y(new A.U(B.nW,new A.aO6(a8),p),p.i("ae.E"))
 q=A.a2j(q,0,10)
@@ -58402,7 +58402,7 @@ default:return B.a_}},
 C(a){var s=null,r=this.gy7(0).ae(0.1),q=A.B(6)
 return A.V(s,A.y(this.c,s,s,s,A.b9(s,s,this.gy7(0),s,s,s,s,s,s,s,s,11,s,s,B.al,s,s,!0,s,s,s,s,s,s,s,s),s,s,s),B.y,s,s,new A.W(r,s,s,q,s,s,B.H),s,s,s,B.eh,s,s,s)}}
 A.Np.prototype={
-gy7(a){if(this.c>=50)return B.hJ
+gy7(a){if(this.c>=5)return B.hJ
 return B.a8},
 C(a){var s=null,r=this.gy7(0).ae(0.1),q=A.B(6)
 return A.V(s,A.y(""+this.c,s,s,s,A.b9(s,s,this.gy7(0),s,s,s,s,s,s,s,s,11,s,s,B.aa,s,s,!0,s,s,s,s,s,s,s,s),s,s,s),B.y,s,s,new A.W(r,s,s,q,s,s,B.H),s,s,s,B.eh,s,s,s)}}
